@@ -1,0 +1,22 @@
+.lead__title{
+    color:rgba(255, 255, 255, 1);
+    margin: 0px auto 46px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 104%;
+    text-rendering: optimizeLegibility;
+    text-align: center;
+}
+@media screen and (max-width: 1279px) {
+    .lead__title {
+        margin: 0px auto 32px;
+    }
+  }
+@media screen and (max-width: 767px) {
+    .lead__title {
+        margin: 0px auto 16px;
+      font-size: 40px;
+      line-height: 110%;
+    }
+  }
